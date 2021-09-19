@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for photo in photos %}
+
+<img src="{{ photo.uploaded_photo.url }}" alt="not image" width="200" height="300"><br><br>
+
+{% endfor %}
+</body>
+</html>
